@@ -1,3 +1,7 @@
+basestation-core-indigo (0.1.1-precise) stable; urgency=low
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Mon, 08 Apr 2013 11:30:42 -0700
+
 basestation-core-groovy (0.1.0-precise) stable; urgency=low
 
   * Incrementing to SVN: r1146
