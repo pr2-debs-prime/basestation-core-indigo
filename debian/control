@@ -1,13 +1,13 @@
 Source: basestation-core-indigo
 Section: basestation/config
 Priority: extra
-Maintainer: Dash <dash@clearpathrobotics.com>
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
 Build-Depends: debhelper (>= 5)
 Standards-Version: 3.7.2
 
 Package: basestation-core-indigo
 Architecture: all
-Depends: python, ros-indigo-pr2-desktop, ros-indigo-pr2-self-test
+Depends: python, ros-indigo-rqt-pr2-dashboard, ros-indigo-pr2-navigation, ros-indigo-pr2-power-drivers, ros-indigo-pr2-simulator, ros-indigo-joint-qualification-controllers, ros-indigo-pr2-bringup-tests, ros-indigo-pr2-counterbalance-check, ros-indigo-pr2-motor-diagnostic-tool, ros-indigo-pr2-self-test-msgs
 Description: Provides /etc/ros setup for the basestation on Indigo
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
