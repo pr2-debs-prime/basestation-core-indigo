@@ -1,13 +1,13 @@
-Source: basestation-core-indigo
+Source: basestation-core-kinetic
 Section: basestation/config
 Priority: extra
-Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
 Build-Depends: debhelper (>= 5)
 Standards-Version: 3.7.2
 
-Package: basestation-core-indigo
+Package: basestation-core-kinetic
 Architecture: all
-Depends: python, ros-indigo-rqt-pr2-dashboard, ros-indigo-pr2-navigation, ros-indigo-pr2-power-drivers, ros-indigo-pr2-simulator, ros-indigo-joint-qualification-controllers, ros-indigo-pr2-bringup-tests, ros-indigo-pr2-counterbalance-check, ros-indigo-pr2-self-test-msgs
-Description: Provides /etc/ros setup for the basestation on Indigo
+Depends: python, ros-kinetic-rqt-pr2-dashboard, ros-kinetic-pr2-navigation, ros-kinetic-pr2-power-drivers, ros-kinetic-pr2-simulator, ros-kinetic-joint-qualification-controllers, ros-kinetic-pr2-bringup-tests, ros-kinetic-pr2-counterbalance-check, ros-kinetic-pr2-self-test-msgs
+Description: Provides /etc/ros setup for the basestation on Kinetic
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
